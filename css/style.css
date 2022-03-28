@@ -566,6 +566,10 @@ section:nth-child(even){
     section{
         padding:2rem;
     }
+    .services>div>img{
+    max-width: 70%;
+    margin-left: 175px;
+    }
 
 }
 
@@ -574,6 +578,10 @@ section:nth-child(even){
     #menu-btn{
         display: initial;
     }
+    .services>div>img{
+        margin-left: 90px;
+    }
+
 
     .header .navbar{
         position: absolute;
@@ -608,5 +616,9 @@ section:nth-child(even){
     html{
         font-size: 50%;
     }
+    .services>div>img{
+        margin-left: 60px;
+    }
+
 
 }
