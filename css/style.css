@@ -59,10 +59,11 @@ section:nth-child(even){
     border:var(--border);
     border-radius: .5rem;
     box-shadow: var(--box-shadow);
-    color:var(--red);
+    color:rgb(0, 0, 0);
     cursor: pointer;
     font-size: 1.7rem;
     background: #fff;
+    
 }
 
 .btn span{
@@ -74,8 +75,8 @@ section:nth-child(even){
 }
 
 .btn:hover{
-    background: var(--red);
-    color:#fff;
+    background: white;
+    color: var(--red);
 }
 
 .btn:hover span{
@@ -147,6 +148,7 @@ section:nth-child(even){
     border-style:ridge;
     box-shadow: var(--box-shadow);
     border-radius: 10px;
+
     
 }
 
@@ -188,7 +190,17 @@ section:nth-child(even){
     font-size: 4.5rem;
     color:var(--red);
     padding-bottom: .7rem;
+   
+    cursor: pointer;
+    
 }
+.icons-container .icons :hover{
+    transform:scale(1.1);
+    cursor: pointer;
+    
+}
+
+
 
 .icons-container .icons h3{
     font-size: 4.5rem;
@@ -318,7 +330,7 @@ section:nth-child(even){
     padding-top: 2rem;
 }
 
-.doctors .box-container .box .share a{
+.doctors .box-container .box .share a {
     height: 5rem;
     width: 5rem;
     line-height: 4.5rem;
@@ -329,9 +341,24 @@ section:nth-child(even){
     margin:.3rem;
 }
 
-.doctors .box-container .box .share a:hover{
-    background:var(--red);
-    color:#fff;
+.doctors .box-container .box .share a:hover:nth-last-child(4){
+    background:rgb(69, 69, 236);
+    color:white;
+    box-shadow: var(--box-shadow);
+}
+.doctors .box-container .box .share a:hover:nth-last-child(3){
+    background:rgb(0, 183, 255);
+    color:white;
+    box-shadow: var(--box-shadow);
+}
+.doctors .box-container .box .share a:hover:nth-last-child(2){
+    background:rgb(246,99,63);
+    color:white;
+    box-shadow: var(--box-shadow);
+}
+.doctors .box-container .box .share a:hover:nth-last-child(1){
+    background:rgb(9, 66, 131);
+    color:white;
     box-shadow: var(--box-shadow);
 }
 
@@ -435,7 +462,7 @@ section:nth-child(even){
     position: absolute;
     top:-4rem; left: 50%;
     transform:translateX(-50%);
-    background:var(--red);
+    background:rgb(243, 98, 98);
     border-bottom-left-radius: 50%;
     border-bottom-right-radius: 50%;
     height: 25rem;
@@ -577,6 +604,9 @@ section:nth-child(even){
     max-width: 70%;
     margin-left: 175px;
     }
+   .header .logo{
+            margin-right:100px;
+    }
 
 }
 
@@ -587,6 +617,9 @@ section:nth-child(even){
     }
     .services>div>img{
         margin-left: 90px;
+    }
+    .header .logo{
+        margin-left: 100px;
     }
 
 
